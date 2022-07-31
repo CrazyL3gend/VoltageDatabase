@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ru.crazylegend",
+    "module": "voltage-database",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "voltage-database-1.0.jar",
+          "url": "voltage-database-1.0.jar",
+          "size": 7559,
+          "sha512": "6442a379c44839177d9d5c057f24750a76d3496783580f9ec8a2fa546e9c9804137d2d6242fac4357715c956facca85677af491efef3193efed244472ba7d65f",
+          "sha256": "2d3d14b248474fb2ce273d88bb1e9e85dc1d27a5b4bb39cd2b4d35ac2fef5953",
+          "sha1": "f20234208ec3dbb677895c6ff033ef9a37b33260",
+          "md5": "fccbdbd1aff2801d3857926b4e05239e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.j256.ormlite",
+          "module": "ormlite-jdbc",
+          "version": {
+            "requires": "6.1"
+          }
+        },
+        {
+          "group": "com.j256.ormlite",
+          "module": "ormlite-core",
+          "version": {
+            "requires": "6.1"
+          }
+        },
+        {
+          "group": "com.google.mug",
+          "module": "mug",
+          "version": {
+            "requires": "6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "voltage-database-1.0.jar",
+          "url": "voltage-database-1.0.jar",
+          "size": 7559,
+          "sha512": "6442a379c44839177d9d5c057f24750a76d3496783580f9ec8a2fa546e9c9804137d2d6242fac4357715c956facca85677af491efef3193efed244472ba7d65f",
+          "sha256": "2d3d14b248474fb2ce273d88bb1e9e85dc1d27a5b4bb39cd2b4d35ac2fef5953",
+          "sha1": "f20234208ec3dbb677895c6ff033ef9a37b33260",
+          "md5": "fccbdbd1aff2801d3857926b4e05239e"
+        }
+      ]
+    }
+  ]
+}
