@@ -35,7 +35,7 @@ publishing {
         create<MavenPublication>("voltage-database") {
             groupId = "ru.crazylegend"
             artifactId = "voltage-database"
-            version = "1.0"
+            version = "1.1"
 
             from(components["java"])
         }
